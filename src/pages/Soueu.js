@@ -1,9 +1,12 @@
 import React from 'react';
-import { View, Text, Button } from "react-native";
+import { View, Text, Button, Image } from "react-native";
 
 const Soueu = ({ navigation }) => {
     return (
         <View>
+            <Image style={Style.imagem}
+                source={require('../Imagens/Ferrari.jpg')}
+                />
             <Text>Esse sou eu!</Text>
             <Text>
                 Bom... tenho 17 anos. Estou com um cançasso 
