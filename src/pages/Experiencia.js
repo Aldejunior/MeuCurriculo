@@ -1,12 +1,12 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native';
 
-const Objetivo = ({ navigation }) => {
+const Experiencia = ({ navigation }) => {
     return (
         <View>
-            <Text>Objetivo</Text>
-            <Text>Viver</Text>
-            <Text>Ter sussego</Text>
+            <Text>Experiência</Text>
+            <Text>Escola</Text>
+            <Text>Trabalho</Text>
 
             <Button 
                 title="Voltar"
@@ -17,4 +17,4 @@ const Objetivo = ({ navigation }) => {
     );
 }
 
-export default Objetivo;
+export default Experiencia;

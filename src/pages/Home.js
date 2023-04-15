@@ -4,7 +4,7 @@ import { View, Text, Button } from 'react-native';
 const Home = ({ navigation }) => {
     return (
         <View>
-            <Text>Esse sou eu.</Text>
+            <Text>Esse sou eu</Text>
 
             <Button 
                 title="Vamos Lá"

@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Button } from "react-native";
 
-const Sobre = ({ navigation }) => {
+const Soueu = ({ navigation }) => {
     return (
         <View>
             <Text>Esse sou eu!</Text>
@@ -12,15 +12,18 @@ const Sobre = ({ navigation }) => {
 
             <Button 
                 title="Objetivo"
-                onPress={ () => navigation.navigation('Objetivo') }
+                onPress={ () => navigation.navigate('Objetivo') }
             />
             <Button 
                 title="Formação"
-                onPress={ () => navigation.navigation('Formacao') }
+                onPress={ () => navigation.navigate('Formacao') }
             />
-
+             <Button 
+                title="Experiência"
+                onPress={ () => navigation.navigate('Experiencia') }
+            />
         </View>
     );
 }
 
-export default Sobre;
+export default Soueu;
